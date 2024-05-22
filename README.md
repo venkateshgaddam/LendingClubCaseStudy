@@ -1,14 +1,20 @@
 # Lending Club Case Study
-> Outline a brief description of your project.
+
+Lending Club, a finance company serving urban customers, must refine its loan approval strategy. The goal is to make smart choices and avoid money loss, mainly from high-risk loans.
+
+These losses, known as credit losses, happen when borrowers don’t repay their loans, with the worst cases being “charged-off” borrowers.
+
+The main goal is to help Lending Club reduce these losses. This involves two key points:
+
+1. It’s vital to identify borrowers who will repay their loans, as they bring in profit through interest. Turning away these borrowers means missing out on potential income.
+2. Approving loans for those unlikely to repay, risking default, can lead to significant financial setbacks.
 
 
 ## Table of Contents
-* [Problem Statement](#general-information)
+* [Problem Statement](#Problem-Statement)
 * [Technologies Used](#technologies-used)
 * [Conclusions](#conclusions)
 * [Acknowledgements](#acknowledgements)
-
-<!-- You can include any other section that is pertinent to your problem -->
 
 ## Problem Statement
 
@@ -32,22 +38,16 @@ If one is able to identify these risky loan applicants, then such loans can be r
 In other words, the company wants to understand the driving factors (or driver variables) behind loan default, i.e. the variables which are strong indicators of default.  The company can utilise this knowledge for its portfolio and risk assessment.
 
 To develop your understanding of the domain, you are advised to independently research a little about risk analytics (understanding the types of variables and their significance should be enough).
-## General Information
-- Provide general information about your project here.
-- What is the background of your project?
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
-
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 ## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
-
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
-
+- Do not issue loans for users with Grades D, E, F, and G
+- Implement Stricter risk assessment criteria for users with Grades B, C, and D
+- Avoid giving loan to small businesses
+- Mortgage seems profitable. Hence, we can give loans for lesser interest to attract more applicants.
+- Giving out loan for a term of 36 months seems far more profitable
+- Evaluate the risk of 60-month loans and consider limiting the maximum term or adjusting interest rates
+- Prioritize applicants with higher annual incomes for loan approval
+- Income range of 0-40K have the highest risk, hence consider adjusting interest rates for those applicants
 
 ## Technologies Used
 - Python - version 3.12.2
@@ -56,21 +56,10 @@ To develop your understanding of the domain, you are advised to independently re
 - matplotlib - version 3.8.4
 - seaborn - version 0.13.2
 
-<!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
 
 ## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
+- This project created as part of Upgrad's Machine Learning & AI course
 
 
 ## Contact
-Created by [@githubusername] - feel free to contact me!
-
-
-<!-- Optional -->
-<!-- ## License -->
-<!-- This project is open source and available under the [... License](). -->
-
-<!-- You don't have to include all sections - just the one's relevant to your project -->
+Created by [@venkateshgaddam](https://github.com/venkateshgaddam) and [@varsim91](https://github.com/varsim91) - feel free to contact me!
